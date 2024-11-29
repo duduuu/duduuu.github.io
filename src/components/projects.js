@@ -1,28 +1,25 @@
 import React from 'react';
-import styled from 'styled-components';
+import '../styles/projects.css';
 
-const ProjectContainer = styled.section`
-  padding: 2rem;
-`;
+const Projects = () => {
+  const projectList = [
+    { title: 'Project 1', description: 'A full-stack application.' },
+    { title: 'Project 2', description: 'A mobile app for social networking.' },
+  ];
 
-const ProjectCard = styled.div`
-  border: 1px solid #ddd;
-  padding: 1rem;
-  margin-bottom: 1rem;
-`;
-
-const Projects = () => (
-  <ProjectContainer id="projects">
-    <h2>My Projects</h2>
-    <ProjectCard>
-      <h3>Project 1</h3>
-      <p>React, Redux, Styled-Components</p>
-    </ProjectCard>
-    <ProjectCard>
-      <h3>Project 2</h3>
-      <p>Node.js, Express, MongoDB</p>
-    </ProjectCard>
-  </ProjectContainer>
-);
+  return (
+    <div className="projects">
+      <h2>My Projects</h2>
+      <div className="project-cards">
+        {projectList.map((project, index) => (
+          <div key={index} className="project-card">
+            <h3>{project.title}</h3>
+            <p>{project.description}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
 
 export default Projects;

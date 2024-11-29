@@ -1,0 +1,16 @@
+.projects {
+    padding: 50px;
+    text-align: center;
+}
+.project-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.project-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+}

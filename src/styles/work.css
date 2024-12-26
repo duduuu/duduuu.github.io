@@ -1,0 +1,155 @@
+.experience-left {
+    text-align: right !important;
+    flex: 0 1 25%;
+    max-width: 25%;
+}
+.experience-right {
+    flex: 0 1 75%;
+    max-width: 75%;
+}
+/* EXPERIENCE 섹션 */
+.experience-section {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+
+.title-block {
+    display: flex;
+    margin-bottom: 2rem;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* 원 안의 원 */
+.circle {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    background-color: #c2e0ff;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.inner-circle {
+    width: 10px;
+    height: 10px;
+    background-color: #007bff;
+    border-radius: 50%;
+}
+
+.experience-title {
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+    color: #3366cc;
+    align-items: center;
+    gap: 1rem;
+}
+
+.experience-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+    margin-top: 1rem !important;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.position-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+    margin-top: 0.8rem !important;
+}
+
+/* 기간 */
+.company-date {
+    color: #6c757d;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 160%;
+}
+
+.position-date {
+    color: #6c757d;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 180%;
+}
+
+/* 회사정보 */
+.company-info {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; /* 긴 회사명/뱃지 시 줄바꿈 */
+    gap: 0.5rem;
+    margin-bottom: 0.3rem;
+}
+
+/* 회사로고 */
+.company-logo {
+    width: 30px;
+    height: auto;
+}
+
+/* 회사명 */
+.company-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 160%;
+}
+
+/* 직무명 */
+.position-name {
+    color: #6c757d;
+    padding-bottom: 0.8em;
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 160%;
+}
+
+/* 직무설명 */
+.text {
+    letter-spacing: -.025em;
+    text-indent: -.9em;
+    margin-bottom: 0;
+    padding-bottom: .3em;
+    padding-left: 2em;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 160%;
+}
+
+/* 뱃지 */
+.badge {
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+}
+
+.badge-skill {
+    color: #fff;
+    background-color: #6c757d;
+}
+
+.badge-blue {
+    color: #fff;
+    background-color: #007bff;
+}
+
+.badge-green {
+    color: #fff;
+    background-color: #17a2b8;
+}

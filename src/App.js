@@ -1,18 +1,18 @@
 import React from 'react';
-import GlobalStyle from './styles/global';
 import Header from './components/header';
 import About from './components/about';
-import Projects from './components/projects';
-import Contact from './components/contact';
+import Work from './components/work';
+import Honor from './components/honor';
+import Education from './components/education';
 
 const App = () => (
   <>
-    <GlobalStyle />
     <Header />
     <main>
       <About />
-      <Projects />
-      <Contact />
+      <Work />
+      <Honor />
+      <Education />
     </main>
   </>
 );
